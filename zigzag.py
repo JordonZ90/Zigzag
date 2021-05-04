@@ -8,7 +8,7 @@ try:
     while True:
         print(f"{' ' * indent}", end='')
         print('********')
-        time.sleep(0.1)
+        time.sleep(0.2)
 
         if indent_increasing:
             indent = indent + 1
